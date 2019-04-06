@@ -1,0 +1,18 @@
+section#text-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  section#text-intro .section-container {
+    max-width: 1200px;
+    text-align: center;
+  }
+    section#text-intro .section-container h1 {
+      font-size: 2em;
+      max-width: 800px;
+      padding: 70px 0;
+      font-weight: 100;
+    }
+    section#text-intro .section-container img {
+      max-width: 300px;
+    }

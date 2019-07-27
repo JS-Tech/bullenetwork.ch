@@ -22,6 +22,7 @@ section#text-info {
     }
   section#text-info .section-container p {
     font-size: 1.1em;
+    font-weight: 100;
   }
   section#text-info .section-container p.video {
     text-align: center;
@@ -32,3 +33,22 @@ section#text-info {
       max-width: 100%;
       height: 300px;
     }
+
+  section#text-info .section-container h3 {
+    padding: 40px 0 40px 25px;
+    font-size: 1.5em;
+    position: relative;
+  }
+    section#text-info .section-container h3:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 5px;
+      background-color: rgba(255, 165, 0, 0.7);
+      left: 15px;
+      bottom: 25px;
+    }
+
+h3+p {
+  padding-left: 40px;
+}
